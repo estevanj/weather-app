@@ -7,9 +7,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+  
+       
            <WeatherLocation></WeatherLocation>
-        </header>
+        
       </div>
     );
   }

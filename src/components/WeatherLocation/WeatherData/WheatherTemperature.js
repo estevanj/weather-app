@@ -14,7 +14,7 @@ import {
 
 const icons ={
     [CLOUD]: "cloud" ,
-    [THUNDER]: "day-thunderstore",
+    [THUNDER]: "day-thunderstorm",
     [SUN]: "day-sunny",
     [RAIN]: "rain",
     [SNOW]: "snow",

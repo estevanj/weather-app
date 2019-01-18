@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './App.css';
 import AppBar from '@material-ui/core/AppBar';
-import ForecastExtended from './components/ForecastExtended';
+import ForecastExtendedContainer from './.containers/ForecastExtendedContainer';
 import LocationListContainer from './containers/LocationListContainer'
 
 const cities = [
@@ -15,14 +15,6 @@ const cities = [
 
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = { city: null };
-  }
-
-
-
-
   render() {
     return (
       <Grid>
@@ -42,10 +34,7 @@ class App extends Component {
           <Col xs={12} md={6}>
             <Paper elevation={4}>
               <div className="details">
-
-                {!this.state.city ? <h1>No se selecciono ciudad</h1> :
-                  <ForecastExtended city={this.state.city} />
-                }
+                  <ForecastExtendedContainer />
               </div>
             </Paper>
           </Col>

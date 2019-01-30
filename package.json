@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^3.8.3",
+    "@material-ui/core": "^3.9.1",
     "moment": "^2.23.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
@@ -12,7 +12,8 @@
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.1",
     "react-weathericons": "^1.0.4",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

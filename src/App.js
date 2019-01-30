@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import './App.css';
 import AppBar from '@material-ui/core/AppBar';
-import ForecastExtendedContainer from './.containers/ForecastExtendedContainer';
+import ForecastExtendedContainer from './containers/ForecastExtendedContainer';
 import LocationListContainer from './containers/LocationListContainer'
 
 const cities = [

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ForecastExtended from './components/ForecastExtended';
-import { connect } from 'react-redux;'
+import ForecastExtended from './../components/ForecastExtended';
+import { connect } from 'react-redux'
 
 class ForecastExtendedContainer extends Component {
     render() {
